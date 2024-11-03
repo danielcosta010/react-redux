@@ -2,6 +2,10 @@ import Header from 'components/Header';
 import styles from './Home.module.scss'
 import relogio from 'assets/inicial.png'
 
+const categorias =[{
+  
+}]
+
 function Home() {
   return ( 
     <div>

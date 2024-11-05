@@ -7,7 +7,7 @@ function Header({ titulo, descricao, className = '', imagem }) {
         <h1>{titulo}</h1>
         <h2>{descricao}</h2>
       </div>
-      <div className={styles['imagem-header']}>
+      <div className={styles['header-imagem']}>
         <img 
           alt={titulo}
           src={imagem}
